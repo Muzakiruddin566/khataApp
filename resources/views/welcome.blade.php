@@ -44,6 +44,31 @@
             </div>
         </div>
     </div>
+    <div class="container text-center py-5">
+    <div class="service-card">
+        <h3 class="mb-5">Your simple, beautiful digital storefront</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <div class="mt-2"> <img src="{{asset('Images/ledger.jpg')}}" width="50" height="50" /> </div>
+                    <h5 class="mt-3">Sell digital content</h5> <small>get  , PDFs, checklinst text, or just about anything.</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <div class="mt-2"> <img src="{{asset('Images/general.jpg')}}" width="50" height="50" /> </div>
+                    <h5 class="mt-3">Beautiful landing pages</h5> <small>Get pages that will match your brand or offer upsells to your supporters.</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <div class="mt-2"> <img src="{{asset('Images/cal.jpg')}}" width="50" height="50" /> </div>
+                    <h5 class="mt-3">Connect with supporters</h5> <small>Using sales pages you can connect with your customers using our chatbot system.</small>
+                </div>
+            </div>
+        </div>
+        <div class="button mt-5"> <button class="btn btn-primary pro-button">Add a Ledger <i class="fa fa-long-arrow-right ml-2 mt-1"></i></button> </div>
+    </div>
 </div>
-
+</div>
 @endsection

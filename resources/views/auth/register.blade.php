@@ -42,11 +42,11 @@
                         <div class="form-group row">
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Business Type') }}</label>
                             <div class="col-md-6">
-                                <select class="form-select form-select-lg  form-control" name="gender" aria-label=".form-select-lg example">
+                                <select class="form-select form-select-lg  form-control" name="Business-Type" aria-label=".form-select-lg example">
                                     <option selected>Select Business Type</option>
-                                    <option value="1">Store</option>
-                                    <option value="2">Home</option>
-                                    <option value="3">Other</option>
+                                    <option >Store</option>
+                                    <option >Home</option>
+                                    <option >Other</option>
                                 </select>
                             </div>
 
